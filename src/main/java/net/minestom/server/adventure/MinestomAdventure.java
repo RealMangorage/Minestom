@@ -47,6 +47,7 @@ public final class MinestomAdventure {
      * Gets the {@link TagStringIO} instance used to convert SNBT.
      * This instance should be used for all Adventure related SNBT parsing and serialization.
      *
+     *
      * @return the tag string IO instance
      */
     public static @NotNull TagStringIO tagStringIO() {
