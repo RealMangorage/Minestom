@@ -12,7 +12,7 @@ plugins {
 // Read env vars (used for publishing generally)
 version = System.getenv("MINESTOM_VERSION") ?: "dev"
 val channel = System.getenv("MINESTOM_CHANNEL") ?: "local" // local, snapshot, release
-val javaVersion = System.getenv("JAVA_VERSION") ?: "21"
+val javaVersion = "21"
 
 val shortDescription = "1.21 Lightweight Minecraft server"
 
